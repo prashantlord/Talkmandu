@@ -78,13 +78,13 @@ cd Talkmandu
 
 2. Install server dependencies:
 ```bash
-cd Server
+cd server
 npm install
 ```
 
 3. Install client dependencies:
 ```bash
-cd ../Client
+cd ../client
 npm install
 ```
 
@@ -111,13 +111,13 @@ redis-server
 
 2. Start the server:
 ```bash
-cd Server
+cd server
 npm run dev
 ```
 
 3. Start the client:
 ```bash
-cd Client
+cd client
 npm run dev
 ```
 
