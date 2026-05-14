@@ -6,7 +6,7 @@ export default defineConfig({
     plugins: [react(), tailwindcss()],
     server: {
         proxy: {
-            "/socket.io": {target: `${import.meta.env.VITE_BACKEND_URL}`, ws: true},
+            "/socket.io": {target: "https://talkmandu-backend.prashant.social", ws: true},
         },
     },
 });
