@@ -18,5 +18,5 @@ export default function ChatToast({message, onClear}) {
                 <p className="mt-1 font-medium text-[var(--ink)]">{message}</p>
             </div>
         );
-    }
+    });
 }
