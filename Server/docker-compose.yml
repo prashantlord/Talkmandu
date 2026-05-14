@@ -1,0 +1,15 @@
+services:
+  redis:
+    image: redis:8.6
+    container_name: talkmandu_redis_cache
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes
+
+volumes:
+  mongo_data:
+  mongo_config:
+  redis_data:
